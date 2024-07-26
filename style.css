@@ -1,0 +1,57 @@
+/* para el formulario de validación de expresiones regulares*/
+form {
+    width: 450px; 
+    margin: 1rem auto; 
+    padding: 3rem; 
+    border: 5px solid #ddd; 
+    border-radius: 20px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /*  para las etiquetas */
+  form label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+  }
+  
+  /*  para los inputs de tipo texto y email */
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 15px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+  }
+  
+  /*  para el botón de enviar */
+  form input[type="submit"] {
+    width: 100%; 
+    padding: 15px 25px; 
+    background-color: #3bce40; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  /* Estilos para el botón de enviar al pasar por encima */
+  form input[type="submit"]:hover {
+    background-color: #45a049; 
+  }
+  
+  /* Estilos para manejo de errores */
+  .error {
+ 
+    color: red; 
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
+
+  

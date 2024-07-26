@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario con Validación de Expresiones Regulares</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<h2 style="text-align: center;">Formulario de Registro</h2>
+
+
+<form method="post" action="procesar_formulario.php" onsubmit="return validarFormulario()">
+    <label for="nombre">Nombre Completo:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+    <span id="error-nombre" class="error"></span><br>
+
+    <label for="email">Correo Electrónico:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <span id="error-email" class="error"></span><br>
+
+    <label for="telefono">Teléfono:</label><br>
+    <input type="text" id="telefono" name="telefono"><br>
+    <span id="error-telefono" class="error"></span><br>
+
+    <label for="codigo_postal">Código Postal:</label><br>
+    <input type="text" id="codigo_postal" name="codigo_postal"><br>
+    <span id="error-codigo_postal" class="error"></span><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<script src="validacion_formulario.js"></script>
+
+</body>
+</html>
